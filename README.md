@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download the datasets
-Download the CMU-MOSI and CMU-MOSEI datasets, and place them under the `datasets/` directory.  
+Download the **aligned versions** of the CMU-MOSI and CMU-MOSEI datasets, and place them under the `datasets/` directory.  
 (Refer to the original dataset instructions if needed.)
 
 ### 3. Run training (example on MOSI)
