@@ -1,0 +1,51 @@
+base:
+  project_name: DPDF_LQ
+  ckpt_root: ./ckpt
+  seed: 1
+  lr: 0.0001
+  weight_decay: 0.0001
+  batch_size: 64
+  n_epochs: 200
+  num_workers: 8
+  gpu_id: 0
+
+dataset:
+  datasetName: mosi
+  dataPath: /root/autodl-tmp/DPDF-LQ/dataset/MOSI/aligned_50.pkl
+  train_mode: regression
+
+model:  
+  bert_pretrained: bert-base-uncased
+
+  # Projection Layer Parameters
+  l_proj_dim: 768
+  a_proj_dim: 5
+  v_proj_dim: 20
+  proj_dst_dim: 128
+
+  # Transformer Parameters
+  token_len: 8
+  token_dim: 128
+  l_proj_length: 500
+  a_proj_length: 500
+  v_proj_length: 500
+  proj_input_dim: 128
+  proj_depth: 1
+  proj_heads: 8
+  proj_mlp_dim: 128
+
+  # Text Encoder Parameters
+  token_length: 8
+  l_enc_heads: 8
+  l_enc_mlp_dim: 128
+
+  #DGLQA Layer Parameters
+  DGLQA_depth: 3
+  DGLQA_heads: 8
+  DGLQA_dim_head: 16
+  DGLQA_droup: 0.
+
+  # Fusion Layer Parameters
+  fusion_heads: 8
+  fusion_mlp_dim: 128
+  fusion_layer_depth: 2
