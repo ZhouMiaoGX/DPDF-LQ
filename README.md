@@ -3,7 +3,7 @@
 Code and supplementary material for our EMNLP 2025 paper *Dual-Path Dynamic Fusion with Learnable Query for Multimodal Sentiment Analysis* (DPDF-LQ).  
 The paper can be found [here](https://aclanthology.org/2025.emnlp-main.571/).  
 All source code is planned to be released after the EMNLP 2025 conference (scheduled for November 9).
-[DPDFLQArchitecture.pdf](https://github.com/user-attachments/files/25513040/DPDFLQArchitecture.pdf)
+![DPDFLQArchitecture](https://github.com/user-attachments/assets/c3f99501-dc68-4786-9514-ca627d002258)
 
 
 ---
